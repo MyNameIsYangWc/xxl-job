@@ -761,7 +761,7 @@ Bean模式任务，支持基于方法的开发方式，每个任务对应一个�
     3、执行日志：需要通过 "XxlJobLogger.log" 打印执行日志；
     
 ```
-// 可参考Sample示例执行器中的 "com.xxl.job.executor.service.jobhandler.SampleXxlJob" ，如下：
+// 可参考Sample示例执行器中的 "SampleXxlJob" ，如下：
 @XxlJob("demoJobHandler")
 public ReturnT<String> execute(String param) {
 
