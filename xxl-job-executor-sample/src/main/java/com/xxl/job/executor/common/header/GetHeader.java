@@ -13,8 +13,8 @@ public class GetHeader {
      */
     public static HttpHeaders getHeader(){
         HttpHeaders httpHeaders = new HttpHeaders();
-        httpHeaders.set("Accept","application/json");
-        httpHeaders.set("contentType","application/json;charset=UTF-8");
+        httpHeaders.add("Accept","application/json");
+        httpHeaders.add("Content-Type","application/json;charset=UTF-8");
         return httpHeaders;
     }
 }
